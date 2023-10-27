@@ -38,7 +38,7 @@ Console.WriteLine($"example: {ex0}");
 var ex1 = JsonConvert.DeserializeObject<Example>(exampleJson0);
 Console.WriteLine($"example: {ex1}");
 Console.WriteLine($"example.ToStringJson(): {ex1.ToStringJson()}");
-Console.WriteLine($"example.ToString2(): {ex.ToString2()}");
+Console.WriteLine($"example.ToString2(): {ex1.ToString2()}");
 class Example
 {
     public List<Fruit> Fruits;
